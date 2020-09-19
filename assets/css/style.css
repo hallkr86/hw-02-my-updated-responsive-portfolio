@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+#background-image{
+    background-image: url(https://image.freepik.com/free-vector/pastel-coloured-detailed-watercolour-texture-background_1048-12127.jpg);
+    
+}
+
+.navbar-brand{
+    background-color: purple;
+    color: lightgray;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 15px;
+    
+
+}
+
+.navbar{
+    margin-left:0px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.justify-content-end{
+    text-align: right;
+}
+
+.container{
+    background-color: white;
+    margin-left: 45px;
+    margin-top: 65px;
+    margin-bottom: 55px;
+    margin-right: 0px;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+
+h1{
+    color: purple;
+    background-color: snow;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#first{
+    padding-left: 55px;
+}
+
+#second{
+    margin-top: 30px;
+}
+
+
+
+#images{
+    color: #0ab69f;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 55px;
+    margin-top: 65px;
+}
+
+.form-group{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+#contact{
+    color: #0ab69f;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 25px;
+    margin-top: 65px;
+}
+
+.btn-primary{
+    box-sizing: border-box;
+    background-color: #0ab69f;
+    display: inline-block
+}
+ 
+#pic{
+    width:250px;
+}
+
+.footer{
+    border-top-color: #0ab69f;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    border-top-style: solid;
+}
+
+.button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #0ab69f;
+}
+
+.container2{
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-right: 22px;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+
+#container3{
+    background-color: white;
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 55px;
+   
+    padding-left: 45px;
+    padding-top: -5px;
+    justify-content: space-evenly;
+
+.kpic{
+    size: 25px;
+}
+
+#im2{
+    text-align: left;
+    padding-left: -20px;
+}
+
+for mobile phones
+@media screen and (max-width: 400px) {
+    .wrapper {
+        width: 100px;
+    }
+}
+
+for tablet
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 400px;
+        .col-s-8 {width:33.33%;}
+        .col-s-2 {width:25%;}
+        .col-md-5 {width:84%;}
+    }
+}
+   
+for desktop
+@media screen and (max-width: 992px) {
+        .wrapper {
+            width: 992px;
+            .col-s-8 {width:33.33%;}
+            .col-s-2 {width:40%;}
+            .col-md-5 {width:84%;}
+        }
+}  
