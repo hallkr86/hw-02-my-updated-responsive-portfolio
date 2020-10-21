@@ -12,3 +12,5 @@ The technologies I used in Visual Studio Code to accomplish this assignment are 
 The challenges I faced was not identifying the bugs that kept me from uploading my resume, centering and slimming my containers to align with my webpage.
 
 Deployed Link: https://hallkr86.github.io/hw-02-my-updated-responsive-portfolio/
+
+Contact me at https://github.com/hallkr86 if you have any questions.
