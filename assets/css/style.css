@@ -7,26 +7,32 @@
 
 
 #background-image{
-    background-image: url(https://image.freepik.com/free-vector/pastel-coloured-detailed-watercolour-texture-background_1048-12127.jpg);
+    background-image: url(https://images.pexels.com/photos/4040585/pexels-photo-4040585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+   
 }
 
 .navbar-brand{
-    background-color: purple;
+    
     color: lightgray;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
-    font-size: 25px;
-    border-radius: 15px;
+    font-size: 20px;
+    
+    
     
 
 }
 
 .navbar{
     margin-left:0px;
+    opacity: 0.5;
+    font-weight: bold;
 }
 
 .nav-link{
-    color: black;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
 .justify-content-end{
@@ -34,36 +40,43 @@
 }
 
 .container{
-    background-color: white;
+    
     margin-left: 45px;
     margin-top: 65px;
     margin-bottom: 55px;
     margin-right: 0px;
     padding-left: 35px;
     padding-top: 30px;
+  
 }
 
 h1{
-    color: purple;
-    background-color: snow;
-    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 25px;
 }
 
 #first{
     padding-left: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
 }
 
 #second{
     margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
 }
 
 
 
 #images{
     color: #0ab69f;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 35px;
     margin-left: 55px;
@@ -78,8 +91,8 @@ h1{
   }
 
 #contact{
-    color: #0ab69f;
-    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 35px;
     margin-left: 25px;
@@ -93,7 +106,9 @@ h1{
 }
  
 #pic{
-    width:250px;
+    width:275px;
+    opacity: none;
+    border-radius: 50%;
 }
 
 .footer{
@@ -102,6 +117,7 @@ h1{
     margin-bottom: 0px;
     padding-bottom: 1px;
     border-top-style: solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .button{
@@ -113,24 +129,35 @@ h1{
 }
 
 .container2{
-    background-color: white;
+    background-color: lightgrey;
+    text-align: center;
     margin-left: 25px;
     margin-top: 55px;
     margin-bottom: 55px;
     margin-right: 22px;
     padding-left: 3px;
     padding-top: 5px;
+    border-radius: 35px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 #container3{
-    background-color: white;
+    background-color: lightgrey;
     margin-left: 45px;
     margin-top: 45px;
     margin-bottom: 55px;
-   
+    border-radius: 35px;
     padding-left: 45px;
     padding-top: -5px;
     justify-content: space-evenly;
+   
+}
+
+.port{
+    size: 350px;
+}
 
 .kpic{
     size: 25px;
